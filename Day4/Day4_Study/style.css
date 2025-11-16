@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+    background-image: url(https://cdn.pixabay.com/photo/2025/10/12/15/49/the-autumn-9890155_1280.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+form {
+    width: 60%;
+    background: rgba(0, 0, 0, 0.5);
+
+    border-radius: 10px;
+    color: white;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 20px;
+
+    .left {
+        background-image: url(https://cdn.pixabay.com/photo/2020/04/20/02/22/rice-5066128_1280.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+
+    }
+
+    .right {
+        padding: 20px;
+
+        h1 {
+            text-align: center;
+        }
+
+        .form_group {
+             position: relative;
+
+            input {
+                margin-top: 20px;
+                margin-bottom: 5px;
+                width: 100%;
+                padding: 10px;
+                border-radius: 20px;
+            }
+               
+                i {
+                    position: absolute;
+                    top: 0;
+                    color: black;
+                    right: 20px;
+                    top: 30px;
+                }
+            
+
+
+        }
+        
+            button {
+                text-align: center;
+                margin-top: 20px;
+                margin-bottom: 5px;
+                width: 100%;
+                padding: 10px;
+                border-radius: 20px;
+                background-color: blue;
+                color: white;
+            }
+
+        .mxh {
+            margin-top: 20px;
+            display: flex;
+            gap: 30px;
+            justify-content: space-evenly;
+
+            button {
+                text-align: center;
+                color: white;
+                margin-top: 5px;
+                padding: 5px;
+                border-radius: 5px;
+
+            }
+
+            button:nth-child(1) {
+                background-color: blue;
+            }
+
+            button:nth-child(2) {
+                background-color: red;
+            }
+
+            button:nth-child(3) {
+                background-color: rgb(224, 140, 154);
+            }
+        }
+
+        hr {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+       p{
+        text-align: center;
+       }
+            a {
+                color: red;
+            }
+
+
+    }
+
+
+}

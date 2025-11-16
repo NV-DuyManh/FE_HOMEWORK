@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+tr {
+    background-color: rgb(86, 231, 231);
+}
+
+th {
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    align-items: center;
+}
+
+table,
+td {
+    img {
+        width: 100px;
+
+    }
+
+    padding: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: 1.5rem;
+    text-align: center;
+
+    .edit {
+        gap: 10px;
+
+        .add {
+            background-color: blue;
+            color: white;
+            padding: 10px 10px;
+        }
+
+        .delete {
+            background-color: red;
+            color: white;
+            padding: 10px 10px;
+        }
+    }
+
+    .
+}

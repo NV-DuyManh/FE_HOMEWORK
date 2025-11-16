@@ -134,8 +134,24 @@ main {
             border: 1px solid black;
             padding: 30px;
 
+            h1 {
+                position: relative;
+
+                &::after {
+                    position: absolute;
+                    content: "";
+                    width: 80px;
+                    border: 2px solid black;
+                    width: 80px;
+                    bottom: 0;
+                    left: 0;
+                    transform: translateY(50%);
+
+                }
+            }
+
             hr {
-                margin-top: 10px;
+                /* margin-top: 10px; */
                 margin-bottom: 40px;
                 width: 45%;
             }
@@ -332,10 +348,11 @@ main {
                 .content {
                     display: flex;
                     gap: 20px;
-                   
+
 
                     img {
-                        width: 200px; animation: abc 1s ease-in 4 alternate;
+                        width: 200px;
+                        animation: abc 1s ease-in 4 alternate;
                     }
 
                     .tip {
@@ -413,7 +430,7 @@ footer {
     text-align: center;
 }
 
-@keyframes abc {
+/* @keyframes abc {
     from {
         transform: scale(0);
     }
@@ -422,4 +439,4 @@ footer {
         transform: scale(1) rotate(360deg);
 
     }
-}
+} */
